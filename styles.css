@@ -116,16 +116,7 @@ figcaption {
     flex-wrap: wrap;
 }
 
-.row-full {
-    width: 100vw;
-    position: relative;
-    margin-left: -50vw;
-    left: 50%;
-    min-height: 500px;
-    padding: 20px;
-}
-
-.responsive {
+img {
     max-width: 100%;
     height: auto;
 }
@@ -137,10 +128,12 @@ figcaption {
 
 .left {
     width: 40%;
+    float: left;
 }
 
 .right {
     width: 60%;
+    float: right;
 }
 
 /* Clear floats after the columns */

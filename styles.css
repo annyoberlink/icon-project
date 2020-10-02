@@ -1,0 +1,262 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+/*********************************************************************
+  YOUR MOBILE/BASE STYLES GO HERE
+*********************************************************************/
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #D3D3D3;
+}
+
+p, li {
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.2em;
+    font-size: 18px;
+}
+
+h1, h2, h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+figure {
+    display: inline-block;
+    margin: 2px;
+}
+
+figcaption {
+    font-size: 12px;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.curved-div svg {
+    display: block;
+}
+
+.curved-gray1 {
+    background: #888888;
+}
+
+.curved-gray2 {
+    background: #787878;
+}
+
+.curved-gray3 {
+    background: #707070;
+}
+
+.curved-gray4 {
+    background: #696969;
+}
+
+.curved-gray5 {
+    background: #686868;
+}
+
+.curved-gray6 {
+    background: #606060;
+}
+
+.curved-gray7 {
+    background: #585858;
+}
+
+.curved-gray8 {
+    background: #505050;
+}
+
+.curved-gray9 {
+    background: #484848;
+}
+
+.curved-gray10 {
+    background: #404040;
+}
+
+.curved-gray11 {
+    background: #383838;
+}
+
+.curved-gray12 {
+    background: #303030;
+}
+
+.container-fluid {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+}
+
+/* .make-me-sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+} */
+.row {
+    diplay: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.row-full {
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
+    min-height: 500px;
+    padding: 20px;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.left {
+    width: 40%;
+}
+
+.right {
+    width: 60%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+u {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+.red {
+    text-decoration-color: #e0483d;
+}
+
+.blue {
+    text-decoration-color: #273de3;
+}
+
+#gray0 {
+    background: #D3D3D3;
+}
+
+#gray1 {
+    background: #888888;
+    color: #D3D3D3;
+}
+
+#gray2 {
+    background: #787878;
+    color: #D3D3D3;
+}
+
+#gray3 {
+    background: #707070;
+    color: #D3D3D3;
+}
+
+#gray4 {
+    background: #696969;
+    color: #D3D3D3;
+}
+
+#gray5 {
+    background: #686868;
+    color: #D3D3D3;
+}
+
+#gray6 {
+    background: #606060;
+    color: #D3D3D3;
+}
+
+#gray7 {
+    background: #585858;
+    color: #D3D3D3;
+}
+
+#gray8 {
+    background: #505050;
+    color: #D3D3D3;
+}
+
+#gray9 {
+    background: #484848;
+    color: #D3D3D3;
+}
+
+#gray10 {
+    background: #404040;
+    color: #D3D3D3;
+}
+
+#gray11 {
+    background: #383838;
+    color: #D3D3D3;
+}
+
+#gray12 {
+    background: #303030;
+    color: #D3D3D3;
+}
+
+#gray13 {
+    background: #202020;
+    color: #D3D3D3;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+
+    /*********************************************************************
+      YOUR TABLET/DESKTOP STYLES GO HERE
+    *********************************************************************/
+    @media(min-width: 681px) {
+
+        /* Any adjustments for tablets and larger go here.
+        Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+        h1 {
+            font-size: 1em;
+        }
+
+        p {
+            line-height: 1em;
+        }
+    }
+
+    /*********************************************************************
+      YOUR DESKTOP-ONLY STYLES GO HERE
+    *********************************************************************/
+    @media(min-width: 729px) {
+        /* Any adjustments for desktop and larger go here.
+        Note these styles will be applied to anything 729px or larger -- so desktop */
+    }
